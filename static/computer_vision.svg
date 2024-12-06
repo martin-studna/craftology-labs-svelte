@@ -1,0 +1,217 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   viewBox="0 0 800 400"
+   width="800"
+   height="400"
+   version="1.1"
+   id="svg45"
+   sodipodi:docname="grid copy.svg"
+   inkscape:version="1.2 (dc2aedaf03, 2022-05-15)"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <defs
+     id="defs49" />
+  <sodipodi:namedview
+     id="namedview47"
+     pagecolor="#ffffff"
+     bordercolor="#000000"
+     borderopacity="0.25"
+     inkscape:showpageshadow="2"
+     inkscape:pageopacity="0.0"
+     inkscape:pagecheckerboard="0"
+     inkscape:deskcolor="#d1d1d1"
+     showgrid="false"
+     inkscape:zoom="0.93937502"
+     inkscape:cx="468.39653"
+     inkscape:cy="205.45575"
+     inkscape:window-width="1920"
+     inkscape:window-height="1017"
+     inkscape:window-x="-8"
+     inkscape:window-y="-8"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="svg45" />
+  <style
+     id="style2">
+    @keyframes boundingBoxAnimation {
+      0%, 100% { opacity: 0; }
+      50% { opacity: 1; }
+    }
+    .bounding-box-1, .label-box-1 {
+      animation: boundingBoxAnimation 3s infinite;
+    }
+    .bounding-box-2, .label-box-2 {
+      animation: boundingBoxAnimation 4s infinite;
+    }
+    .bounding-box-3, .label-box-3 {
+      animation: boundingBoxAnimation 5s infinite;
+    }
+  </style>
+  <!-- Car -->
+  <g
+     id="car"
+     transform="matrix(1.4379564,0,0,1.4379564,-158.10231,-144.52561)">
+    <rect
+       x="150"
+       y="240"
+       width="120"
+       height="60"
+       fill="#ff0000"
+       id="rect4" />
+    <circle
+       cx="180"
+       cy="300"
+       r="15"
+       fill="#000000"
+       id="circle6" />
+    <circle
+       cx="240"
+       cy="300"
+       r="15"
+       fill="#000000"
+       id="circle8" />
+    <!-- Bounding Box -->
+    <rect
+       x="145"
+       y="235"
+       width="130"
+       height="80"
+       fill="none"
+       stroke="rgba(111, 2, 247, 1)"
+       stroke-width="2"
+       class="bounding-box-1"
+       id="rect10" />
+    <!-- Label -->
+    <rect
+       x="144"
+       y="215"
+       width="80"
+       height="20"
+       fill="rgba(111, 2, 247, 1)"
+       class="label-box-1"
+       id="rect12" />
+    <text
+       x="150"
+       y="230"
+       fill="#ffffff"
+       font-size="12px"
+       id="text14"
+       font-family="'Courier New'">car 0.85</text>
+  </g>
+  <!-- Person -->
+  <g
+     id="person"
+     transform="matrix(1.4379564,0,0,1.4379564,-330.65707,-144.52561)">
+    <!-- Head -->
+    <circle
+       cx="500"
+       cy="200"
+       r="20"
+       fill="#ffcc99"
+       id="circle17" />
+    <!-- Body -->
+    <rect
+       x="480"
+       y="220"
+       width="40"
+       height="60"
+       fill="#4682b4"
+       id="rect19" />
+    <!-- Legs -->
+    <line
+       x1="490"
+       y1="280"
+       x2="490"
+       y2="320"
+       stroke="#000000"
+       stroke-width="5"
+       id="line21" />
+    <line
+       x1="510"
+       y1="280"
+       x2="510"
+       y2="320"
+       stroke="#000000"
+       stroke-width="5"
+       id="line23" />
+    <!-- Bounding Box -->
+    <rect
+       x="470"
+       y="180"
+       width="60"
+       height="150"
+       fill="none"
+       stroke="rgba(111, 2, 247, 1)"
+       stroke-width="2"
+       class="bounding-box-2"
+       id="rect25" />
+    <!-- Label -->
+    <rect
+       x="469"
+       y="160"
+       width="90"
+       height="20"
+       fill="rgba(111, 2, 247, 1)"
+       class="label-box-2"
+       id="rect27" />
+    <text
+       x="475"
+       y="175"
+       fill="#ffffff"
+       font-size="12px"
+       id="text29"
+       font-family="'Courier New'">person 0.92</text>
+  </g>
+  <!-- Another Car -->
+  <g
+     id="car2"
+     transform="matrix(1.4379564,0,0,1.4379564,-330.65707,-144.52561)">
+    <rect
+       x="600"
+       y="250"
+       width="150"
+       height="50"
+       fill="#00ff00"
+       id="rect32" />
+    <circle
+       cx="640"
+       cy="300"
+       r="15"
+       fill="#000000"
+       id="circle34" />
+    <circle
+       cx="710"
+       cy="300"
+       r="15"
+       fill="#000000"
+       id="circle36" />
+    <!-- Bounding Box -->
+    <rect
+       x="595"
+       y="245"
+       width="160"
+       height="70"
+       fill="none"
+       stroke="rgba(111, 2, 247, 1)"
+       stroke-width="2"
+       class="bounding-box-3"
+       id="rect38" />
+    <!-- Label -->
+    <rect
+       x="594"
+       y="225"
+       width="80"
+       height="20"
+       fill="rgba(111, 2, 247, 1)"
+       class="label-box-3"
+       id="rect40" />
+    <text
+       x="600"
+       y="240"
+       fill="#ffffff"
+       font-size="12px"
+       id="text42"
+       font-family="'Courier New'">car 0.78</text>
+  </g>
+</svg>

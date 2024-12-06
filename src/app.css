@@ -1,3 +1,40 @@
 @import 'tailwindcss/base';
 @import 'tailwindcss/components';
-@import 'tailwindcss/utilities'
+@import 'tailwindcss/utilities';
+@import url('https://fonts.googleapis.com/css2?family=Figtree:wght@400;500;600;700&display=swap');
+
+
+:root {
+    --accent-blue: #2869FF;
+    --accent-purple: #6F02F7;
+    --grey-900: #0D0D0D;
+    --grey-800: #4D4D4D;
+    --grey-600: #808080;
+    --grey-400: #BFBFBF;
+    --grey-100: #FAFAFA;
+    --label-letter-spacing: 5%;
+    --font-family: 'Figtree', sans-serif;
+}
+
+
+html {
+    font-family: var(--font-family), sans-serif;
+    color: var(--grey-900);
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-weight: 600; /* Semibold */
+}
+
+label {
+    letter-spacing: var(--label-letter-spacing);
+    text-transform: capitalize;
+}
+
+.primary-button {
+    @apply bg-[var(--accent-purple)] text-white py-2 px-5 rounded-lg font-semibold;
+}
+
+.secondary-button {
+    @apply bg-[var(--grey-100)] text-[var(--accent-purple)] py-2 px-5 rounded-lg font-semibold border border-[var(--accent-purple)];
+}

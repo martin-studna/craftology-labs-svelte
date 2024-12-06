@@ -1,0 +1,215 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg 
+  width="800" 
+  height="600" 
+  xmlns="http://www.w3.org/2000/svg" 
+  viewBox="0 0 800 600"
+  preserveAspectRatio="xMidYMid meet"
+>
+  <defs>
+    <!-- Define a horizontal gradient for the scanning lines -->
+    <linearGradient id="scanGradient" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" style="stop-color: rgba(111, 2, 247, 1); stop-opacity:1" />
+      <stop offset="50%" style="stop-color: rgba(111, 2, 247, 1); stop-opacity:1" />
+      <stop offset="100%" style="stop-color: rgba(111, 2, 247, 1); stop-opacity:1" />
+    </linearGradient>
+    
+    <!-- Define a mask for the scanning lines to create a beam effect -->
+    <mask id="scanMask">
+      <rect x="0" y="0" width="100%" height="100%" fill="black" />
+      <rect x="0" y="0" width="100%" height="100%" fill="url(#scanGradient)" />
+    </mask>
+  </defs>
+
+  <!-- Background Text -->
+  <g fill="rgba(0,0,0,0.8)" font-family="Courier New" font-size="24">
+    <!-- Lines of text related to delivering goods to a warehouse -->
+    <text x="-30" y="100">A graphic representation of data abstracted from the missionaries, the train reached Case’s station. No sound but the muted purring of the spherical </text>
+    <text x="-50" y="150">chamber. Case felt the edge of the spherical chamber. The semiotics of the previous century. He stared at the rear of the arcade showed him broken lengths </text>
+    <text x="-70" y="200">of damp chipboard and the dripping chassis of a gutted game console. Light from a service hatch at the rear wall dulling the roar of the room where Case </text>
+    <text x="-10" y="250">waited. The Sprawl was a square of faint light. The knives seemed to have been sparsely decorated, years before, with a luminous digital display wired to a </text>
+    <text x="-40" y="300">subcutaneous chip. The alarm still oscillated, louder here, the rear of the console in faded pinks and yellows. No sound but the muted purring of the </text>
+    <text x="-60" y="350">arcade showed him broken lengths of damp chipboard and the chassis of a gutted game console. Still it was a square of faint light. Strata of cigarette </text>
+    <text x="-35" y="400">smoke rose from the tiers, drifting until it struck currents set up by the blowers and the robot gardener. Why bother with the movement of the train, their </text>
+    <text x="-5" y="450">high heels like polished hooves against the gray metal of the Villa bespeak a turning in, a denial of the bright void beyond the hull.</text>
+  </g>
+
+  <!-- Scanning Lines -->
+  
+  <!-- Scanning Line for y=100 -->
+  <rect 
+    x="-200" 
+    y="85" 
+    width="200" 
+    height="20" 
+    fill="rgb(111, 2, 247)" 
+    mask="url(#scanMask)"
+  >
+    <animate 
+      attributeName="x" 
+      from="-200" 
+      to="800" 
+      dur="4s" 
+      begin="0s" 
+      repeatCount="indefinite" 
+      fill="freeze"
+      keyTimes="0;1"
+      calcMode="linear"
+    />
+  </rect>
+
+  <!-- Scanning Line for y=150 -->
+  <rect 
+    x="-200" 
+    y="135" 
+    width="200" 
+    height="20" 
+    fill="rgb(111, 2, 247)" 
+    mask="url(#scanMask)"
+  >
+    <animate 
+      attributeName="x" 
+      from="-200" 
+      to="800" 
+      dur="5s" 
+      begin="1s" 
+      repeatCount="indefinite" 
+      fill="freeze"
+      keyTimes="0;1"
+      calcMode="linear"
+    />
+  </rect>
+
+  <!-- Scanning Line for y=200 -->
+  <rect 
+    x="-200" 
+    y="185" 
+    width="200" 
+    height="20" 
+    fill="rgb(111, 2, 247)" 
+    mask="url(#scanMask)"
+  >
+    <animate 
+      attributeName="x" 
+      from="-200" 
+      to="800" 
+      dur="3.5s" 
+      begin="0.5s" 
+      repeatCount="indefinite" 
+      fill="freeze"
+      keyTimes="0;1"
+      calcMode="linear"
+    />
+  </rect>
+
+  <!-- Scanning Line for y=250 -->
+  <rect 
+    x="-200" 
+    y="235" 
+    width="200" 
+    height="20" 
+    fill="rgb(111, 2, 247)" 
+    mask="url(#scanMask)"
+  >
+    <animate 
+      attributeName="x" 
+      from="-200" 
+      to="800" 
+      dur="4.5s" 
+      begin="2s" 
+      repeatCount="indefinite" 
+      fill="freeze"
+      keyTimes="0;1"
+      calcMode="linear"
+    />
+  </rect>
+
+  <!-- Scanning Line for y=300 -->
+  <rect 
+    x="-200" 
+    y="285" 
+    width="200" 
+    height="20" 
+    fill="rgb(111, 2, 247)" 
+    mask="url(#scanMask)"
+  >
+    <animate 
+      attributeName="x" 
+      from="-200" 
+      to="800" 
+      dur="3s" 
+      begin="1.5s" 
+      repeatCount="indefinite" 
+      fill="freeze"
+      keyTimes="0;1"
+      calcMode="linear"
+    />
+  </rect>
+
+  <!-- Scanning Line for y=350 -->
+  <rect 
+    x="-200" 
+    y="335" 
+    width="200" 
+    height="20" 
+    fill="rgb(111, 2, 247)" 
+    mask="url(#scanMask)"
+  >
+    <animate 
+      attributeName="x" 
+      from="-200" 
+      to="800" 
+      dur="6s" 
+      begin="0s" 
+      repeatCount="indefinite" 
+      fill="freeze"
+      keyTimes="0;1"
+      calcMode="linear"
+    />
+  </rect>
+
+  <!-- Scanning Line for y=400 -->
+  <rect 
+    x="-200" 
+    y="385" 
+    width="200" 
+    height="20" 
+    fill="rgb(111, 2, 247)" 
+    mask="url(#scanMask)"
+  >
+    <animate 
+      attributeName="x" 
+      from="-200" 
+      to="800" 
+      dur="5.5s" 
+      begin="2.5s" 
+      repeatCount="indefinite" 
+      fill="freeze"
+      keyTimes="0;1"
+      calcMode="linear"
+    />
+  </rect>
+
+  <!-- Scanning Line for y=450 -->
+  <rect 
+    x="-200" 
+    y="435" 
+    width="200" 
+    height="20" 
+    fill="rgb(111, 2, 247)" 
+    mask="url(#scanMask)"
+  >
+    <animate 
+      attributeName="x" 
+      from="-200" 
+      to="800" 
+      dur="4s" 
+      begin="1s" 
+      repeatCount="indefinite" 
+      fill="freeze"
+      keyTimes="0;1"
+      calcMode="linear"
+    />
+  </rect>
+
+</svg>
