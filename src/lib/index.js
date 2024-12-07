@@ -6,3 +6,4 @@ export { default as Articles } from './Articles.svelte';
 export { default as Experience } from './Experience.svelte';
 export { default as CaseStudies } from './CaseStudies.svelte';
 export { default as Contacts } from './Contacts.svelte';
+export { default as Hamburger } from './Hamburger.svelte';
