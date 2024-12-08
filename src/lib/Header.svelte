@@ -19,10 +19,10 @@
 			<img src="/logo_and_name.svg" alt="Craftology Logo" class="min-w-[150px] sm:min-w-[250px] sm:min-h-[30px]">
 		</a>
 		<nav class="hide flex items-center space-x-8 font-semibold">
-			<a href="#case-studies" onclick={() => scrollToElement('case-studies')} class="text-md">CASE STUDIES</a>
-			<a href="#blog" onclick={() => scrollToElement('blog')} class="text-md">BLOG</a>
-			<a href="#contact" onclick={() => scrollToElement('contact')} class="text-md">CONTACT</a>
-			<button class="primary-button" onclick={() => scrollToElement('contact')}>LET'S TALK</button>
+			<a href="#services" onclick={() => scrollToElement('services')} class="text-md tracking-wider">SERVICES</a>
+			<a href="#blog" onclick={() => scrollToElement('blog')} class="text-md tracking-wider">BLOG</a>
+			<a href="#contact" onclick={() => scrollToElement('contact')} class="text-md tracking-wider">CONTACT</a>
+			<button class="primary-button tracking-wider" onclick={() => scrollToElement('contact')}>LET'S TALK</button>
 		</nav>
 		<!-- <div class="sm:hidden  lg:block">fwpeokwfpo</div> -->
 		<Hamburger bind:open />
@@ -32,13 +32,13 @@
 				  onclick={() => {
 					open = false;
 					document.body.style.overflow = 'auto';
-					scrollToElement('case-studies');
+					scrollToElement('services');
 				  }}
 		
 				  class="{ open ? 'link text-4xl mb-12 font-semibold' : 'hidden' }"
 				  data-aos="fade-right"
 				  data-aos-delay="400">
-				  CASE STUDIES
+				  SERVICES
 				</button>
 				<button
 		
