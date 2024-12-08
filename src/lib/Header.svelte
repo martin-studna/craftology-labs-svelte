@@ -1,10 +1,10 @@
 <script>
 	import { goto } from '$app/navigation';
 	import Hamburger from './Hamburger.svelte';
-    function scrollToElement(event) {
+    function scrollToElement(address) {
       event.preventDefault(); // Prevent default anchor behavior
-      const targetId = event.target.getAttribute('href').substring(1);
-      const targetElement = document.getElementById(targetId);
+
+      const targetElement = document.getElementById(address);
       if (targetElement) {
         targetElement.scrollIntoView({ behavior: 'smooth' });
       }
@@ -16,13 +16,13 @@
 <header class="flex items-center p-4">
 	<div class="flex items-center justify-between space-x-4 w-full max-w-screen-xl mx-auto my-4 px-8">
 		<a href="/">
-			<img src="/logo_and_name.svg" alt="Craftology Logo" class="min-w-[150px] min-h-[30px] sm:min-w-[250px] sm:min-h-[40px]">
+			<img src="/logo_and_name.svg" alt="Craftology Logo" class="min-w-[150px] sm:min-w-[250px] sm:min-h-[30px]">
 		</a>
 		<nav class="hide flex items-center space-x-8 font-semibold">
-			<a href="#case-studies" onclick={scrollToElement} class="text-md">CASE STUDIES</a>
-			<a href="#blog" onclick={scrollToElement} class="text-md">BLOG</a>
-			<a href="#contact" onclick={scrollToElement} class="text-md">CONTACT</a>
-			<button class="primary-button">LET'S TALK</button>
+			<a href="#case-studies" onclick={() => scrollToElement('case-studies')} class="text-md">CASE STUDIES</a>
+			<a href="#blog" onclick={() => scrollToElement('blog')} class="text-md">BLOG</a>
+			<a href="#contact" onclick={() => scrollToElement('contact')} class="text-md">CONTACT</a>
+			<button class="primary-button" onclick={() => scrollToElement('contact')}>LET'S TALK</button>
 		</nav>
 		<!-- <div class="sm:hidden  lg:block">fwpeokwfpo</div> -->
 		<Hamburger bind:open />
@@ -31,7 +31,8 @@
 				<button
 				  onclick={() => {
 					open = false;
-					goto('/');
+					document.body.style.overflow = 'auto';
+					scrollToElement('case-studies');
 				  }}
 		
 				  class="{ open ? 'link text-4xl mb-12 font-semibold' : 'hidden' }"
@@ -43,7 +44,8 @@
 		
 				   onclick={() => {
 					open = false;
-					goto('/workshops');
+					document.body.style.overflow = 'auto';
+					scrollToElement('blog');
 				  }}
 		
 				  class="{ open ? 'link text-4xl mb-12 font-semibold' : 'hidden' }"
@@ -54,7 +56,8 @@
 				<button
 				  onclick={() => {
 					open = false;
-					goto('/contact');
+					document.body.style.overflow = 'auto';
+					scrollToElement('contact');
 				  }}
 		
 				  class="{ open ? 'link text-4xl mb-12 font-semibold' : 'hidden' }"
@@ -65,7 +68,8 @@
 				<button
 				  onclick={() => {
 					open = false;
-					goto('/faq');
+					document.body.style.overflow = 'auto';
+					scrollToElement('contact');
 				  }}
 		
 				  class="{ open ? 'link text-4xl mb-12 font-semibold' : 'hidden' }"
