@@ -1,10 +1,8 @@
-<section id="contact" class="h-[100svh] flex flex-col justify-center px-8">
-    <h1  class="text-5xl mb-12 text-center">Let's talk about your needs.</h1>
-    <div class="text-center mb-12">
-        Send us an email and we can arrange free workshop to uncover whether AI can offer you helping hand your business deserves.
-    </div>
-    <div class="flex gap-4 justify-center items-center">
-        <button class="primary-button">Email us</button>
-        <button class="primary-button">Call us</button>
-    </div>
+<script>
+    import Form from './Form.svelte';
+</script>
+
+<section id="contact" class="h-[100svh] flex flex-col justify-center items-center">
+    <h1 class="heading-1 text-center">Let's Make Your Company Smarter.<br> <a href="/contact" class="underline text-[var(--accent-purple)]">Let's Talk</a></h1>
+    <!-- <Form /> -->
 </section>

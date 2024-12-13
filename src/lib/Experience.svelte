@@ -1,4 +1,4 @@
-<section class="h-[100svh] flex flex-col justify-center px-8">
+<section class="h-[100svh] flex flex-col justify-center">
     <h1 class="text-5xl mb-12 text-center">Why We Are The <span class="text-[var(--accent-purple)]">Right</span> Choice?</h1>
 
     <div class="grid grid-cols-1 md:grid-cols-2 gap-8 text-center auto-rows-min">
@@ -13,10 +13,6 @@
         <div class="p-2  max-w-xs mx-auto">
             <h2 class="text-2xl">2 models</h2>
             <p class="mt-1">Are currently running on client servers actively saving their time and money.</p>
-        </div>
-        <div class="p-2  max-w-xs mx-auto">
-            <h2 class="text-2xl">12 papers</h2>
-            <p class="mt-1">Is the average number of academic papers reviewed before offering you a solution.</p>
         </div>
     </div>
 </section>

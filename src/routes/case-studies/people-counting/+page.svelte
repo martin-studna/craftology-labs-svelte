@@ -7,7 +7,7 @@
     <p class="mb-6">In this fashion retailer store demo, you'll observe that only the people are selected, while the mannequins remain unselected. This distinction demonstrates the system's ability to accurately differentiate between real individuals and static objects within the store environment.</p>
     <img src="/people_counting.png" alt="People Counting">
     <h2 class="text-2xl mb-6">Client Overview</h2>
-    <p class="mb-6">A growing retail chain approached us with a key challenge: optimizing store operations, enhancing customer experience, and boosting sales by leveraging data insights. With our expertize in logistics, our team was eager to develop a robust solution tailored to their needs.</p>
+    <p class="mb-6">A growing retail chain approached us with a key challenge: optimizing store operations, enhancing customer experience, and boosting sales by leveraging data insights. With our expertise in logistics, our team was eager to develop a robust solution tailored to their needs.</p>
     <h2 class="text-2xl mb-6">The Challenge</h2>
     <p class="mb-6">The client faced difficulties in understanding foot traffic patterns within their stores. Traditional methods like manual counting and outdated surveillance systems proved inefficient, often leading to inaccurate data. Without a reliable solution to track customer movement, they struggled with:</p>
     <ul>
@@ -51,7 +51,7 @@
     <li>Explore unforeseen insights and discovering unexpected behavior patterns.</li>
 </ul>
 <h2 class="text-2xl mb-6">About Craftology</h2>
-<p class="mb-6">Craftology is a software agency with expertize in LLMs and Computer vision focused on optimizing logistics and operations. We deliver tailored solutions that help businesses enhance efficiency and profitability.</p>
+<p class="mb-6">Craftology is a software agency with expertise in LLMs and Computer vision focused on optimizing logistics and operations. We deliver tailored solutions that help businesses enhance efficiency and profitability.</p>
 <p class="mb-6">Ready to optimize your retail operations? Contact us today to learn more about our intelligent people counting system and other AI-driven solutions.</p>
 
 <div class="flex justify-center items-center space-x-4">

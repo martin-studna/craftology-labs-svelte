@@ -1,7 +1,7 @@
 @import 'tailwindcss/base';
 @import 'tailwindcss/components';
 @import 'tailwindcss/utilities';
-@import url('https://fonts.googleapis.com/css2?family=Figtree:wght@400;500;600;700&display=swap');
+/* @import url('https://fonts.googleapis.com/css2?family=Figtree:wght@400;500;600;700&display=swap'); */
 
 
 :root {
@@ -38,4 +38,24 @@ label {
 
 .secondary-button {
     @apply bg-[var(--grey-100)] text-[var(--accent-purple)] py-2 px-5 rounded-lg font-semibold border border-[var(--accent-purple)];
+}
+
+.service-box {
+    @apply border-2 border-[var(--accent-purple)] rounded-lg p-4 text-center h-[110px] w-[110px] sm:h-[150px] sm:w-[150px] sm:text-xl flex items-center justify-center;
+}
+
+.heading-1 {
+    @apply text-5xl md:text-7xl mb-6;
+}
+
+.heading-2 {
+    @apply text-3xl md:text-4xl mb-6;
+}
+
+.heading-3 {
+    @apply text-2xl md:text-4xl mb-6;
+}
+
+.text-larger {
+    @apply text-xl md:text-2xl;
 }

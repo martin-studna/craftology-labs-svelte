@@ -2,7 +2,7 @@
 import { goto } from '$app/navigation';
 </script>
 
-<section id="case-studies" class="flex flex-col justify-center px-8">
+<section id="case-studies" class="flex flex-col justify-center ">
 
     <h1  class="text-5xl mb-12">Projects developed. <span class="text-[var(--accent-purple)]">Delivered</span>. Used every day.</h1>
 

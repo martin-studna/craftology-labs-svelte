@@ -1,9 +1,10 @@
 <script>
-	import { Landing, Services, Experience, CaseStudies, Contacts } from '$lib';
+	import { Landing, Services, About, Experience, CaseStudies, Contacts } from '$lib';
 </script>
 
 <Landing />
 <Services />
+<About />
 <Experience />
 <CaseStudies />
 <Contacts />
