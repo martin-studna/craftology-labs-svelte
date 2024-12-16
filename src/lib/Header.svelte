@@ -19,8 +19,8 @@
 			<img src="/logo_and_name.svg" alt="Craftology Logo" class="min-w-[180px] min-h-[32px] sm:min-w-[220px] sm:min-h-[40px]">
 		</a>
 		<nav class="hide flex items-center space-x-8 font-semibold">
-			<a href="#services" onclick={() => scrollToElement('services')} class="text-md tracking-wider">SERVICES</a>
-			<a href="#case-studies" onclick={() => scrollToElement('case-studies')} class="text-md tracking-wider">CASE STUDIES</a>
+			<a href="/#services" onclick={() => {if (window.location.pathname !== '/') {goto('/#services')}; scrollToElement('services')}} class="text-md tracking-wider">SERVICES</a>
+			<a href="/#case-studies" onclick={() => {if (window.location.pathname !== '/') {goto('/#case-studies')}; scrollToElement('case-studies')}} class="text-md tracking-wider">CASE STUDIES</a>
 			<button class="primary-button tracking-wider" onclick={() => goto('/contact')}>LET'S TALK</button>
 		</nav>
 		<!-- <div class="sm:hidden  lg:block">fwpeokwfpo</div> -->
