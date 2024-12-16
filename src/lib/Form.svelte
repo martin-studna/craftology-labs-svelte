@@ -21,7 +21,7 @@
 
         // validate email format
         const emailRegex = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
-        if (!emailRegex.test(email.v)) {
+        if (emailRegex.test(email.v) === false) {
             alert('Please enter a valid email address.');
             return;
         }
@@ -29,7 +29,7 @@
         // validate phone number format if provided
         if (phone.v) {
             const phoneRegex = /^\+?[\d\s-()]{8,}$/;
-            if (!phoneRegex.test(phone.v)) {
+            if (phoneRegex.test(phone.v) === false) {
                 alert('Please enter a valid phone number. (e.g. +420 123 456 789)');
                 return;
             }
