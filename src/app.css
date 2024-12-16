@@ -46,6 +46,7 @@ label {
 
 .heading-1 {
     @apply text-5xl md:text-7xl mb-6;
+    line-height: normal;
 }
 
 .heading-2 {

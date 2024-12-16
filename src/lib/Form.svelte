@@ -14,14 +14,14 @@
 
 
         // validate inputs
-        if (name.v === "" || email.v === "" || message.v === "") {
+        if (name === "" || email === "" || message === "") {
             alert('Please fill in all required fields.');
             return;
         }
 
         // validate email format
         const emailRegex = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
-        if (emailRegex.test(email.v) === false) {
+        if (emailRegex.test(email) === false) {
             alert('Please enter a valid email address.');
             return;
         }
@@ -36,18 +36,18 @@
         }
 
         // validate message length
-        if (message.v.length < 10) {
+        if (message.length < 10) {
             alert('Please enter a message with at least 10 characters.');
             return;
         }
 
         const params = {
-            name: name.v,
-            company: company.v,
-            jobtitle: jobtitle.v,
-            email: email.v,
-            phone: phone.v,
-            message: message.v
+            name: name,
+            company: company,
+            jobtitle: jobtitle,
+            email: email,
+            phone: phone,
+            message: message
         }
 
         emailjs.send('service_93qgher', 'template_3al002i', params)
