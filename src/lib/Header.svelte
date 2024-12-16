@@ -81,7 +81,7 @@
 		background-color: white;
 		opacity: 0.9;
 		overflow: hidden;
-
+		z-index: 10;
 
 	}
 	.hide2 {
