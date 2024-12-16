@@ -3,41 +3,63 @@
 
     emailjs.init("XkaO0JVBgvP3phBzS")
 
-    let name = '';
-    let company = '';
-    let jobtitle = '';
-    let email = '';
-    let phone = '';
-    let message = '';
+    let name = $state('');
+    let company = $state('');
+    let jobtitle = $state('');
+    let email = $state('');
+    let phone = $state('');
+    let message = $state('');
 
     const sendEmail = () => {
 
 
         // validate inputs
-        if (!name.value || !email.value || !message.value) {
+        if (name.v === "" || email.v === "" || message.v === "") {
             alert('Please fill in all required fields.');
             return;
         }
 
+        // validate email format
+        const emailRegex = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
+        if (!emailRegex.test(email.v)) {
+            alert('Please enter a valid email address.');
+            return;
+        }
+
+        // validate phone number format if provided
+        if (phone.v) {
+            const phoneRegex = /^\+?[\d\s-()]{8,}$/;
+            if (!phoneRegex.test(phone.v)) {
+                alert('Please enter a valid phone number. (e.g. +420 123 456 789)');
+                return;
+            }
+        }
+
+        // validate message length
+        if (message.v.length < 10) {
+            alert('Please enter a message with at least 10 characters.');
+            return;
+        }
+
         const params = {
-            name: name.value,
-            company: company.value,
-            jobtitle: jobtitle.value,
-            email: email.value,
-            phone: phone.value,
-            message: message.value
+            name: name.v,
+            company: company.v,
+            jobtitle: jobtitle.v,
+            email: email.v,
+            phone: phone.v,
+            message: message.v
         }
 
         emailjs.send('service_93qgher', 'template_3al002i', params)
         .then((response) => {
             console.log('SUCCESS!', response.status, response.text);
-            name.value = ''
-            company.value = ''
-            jobtitle.value = ''
-            email.value = ''
-        phone.value = ''
-        message.value = ''
-        alert('E-mail sent successfully.');
+            name = '';
+            company = '';
+            jobtitle = '';
+            email = '';
+            phone = '';
+            message = '';
+            alert('E-mail sent successfully.');
         }, (err) => {
             alert('E-mail failed to send.');
         });
@@ -53,10 +75,10 @@
 
 </script>
 
-<form on:submit={sendEmail} class="contact-form">
+<form onsubmit={sendEmail}  class="contact-form">
     <div class="content">
       <div class="input-wrapper">
-        <input placeholder="" id="name"  name="name" bind:value={name} class="transparent-border" />
+        <input placeholder="" id="name" name="name" bind:value={name}  class="transparent-border" />
         <label for="name">Name</label>
       </div>
       <div class="input-wrapper">
@@ -81,7 +103,7 @@
         </div>
       </div>
       <div class="input-wrapper">
-        <textarea bind:value={message} placeholder="" on:input={autoResize}
+        <textarea bind:value={message} placeholder="" oninput={autoResize}
           id="message" name="message" class="transparent-border"></textarea>
         <label for="message" class=""><span>Message</span></label>
       </div>

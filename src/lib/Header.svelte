@@ -31,6 +31,10 @@
 				  onclick={() => {
 					open = false;
 					document.body.style.overflow = 'auto';
+
+					if (window.location.pathname !== '/') {
+						goto('/#services');
+					}
 					scrollToElement('services');
 				  }}
 		
@@ -44,7 +48,11 @@
 				   onclick={() => {
 					open = false;
 					document.body.style.overflow = 'auto';
-					scrollToElement('#case-studies');
+					if (window.location.pathname !== '/') {
+						goto('/#case-studies');
+					}
+					
+					scrollToElement('case-studies');
 				  }}
 		
 				  class="{ open ? 'link text-4xl mb-12 font-semibold' : 'hidden' }"
