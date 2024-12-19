@@ -27,9 +27,9 @@ jobs:
           echo "deb https://dl.yarnpkg.com/debian/ stable main" | sudo tee /etc/apt/sources.list.d/yarn.list
           sudo apt update
           sudo apt install -y yarn
-          sudo npm install pm2 -g
+          sudo yarn global add pm2
           git pull origin main    # Adjust branch as necessary
           yarn install
           yarn build
-          pm2 restart index
+          sudo pm2 restart index
         EOF
