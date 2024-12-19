@@ -3,7 +3,7 @@
     <h2 class="text-4xl mb-6">Collect. Analyze. Predict.</h2>
     <p class="mb-6">We can help you audit current SKUs. Furthermore, with more data our model is able to extrapolate future demand.</p>
     <p class="mb-6">Most money in your e-commerce business lies in the amount of stock you keep in your warehouse. We have battle tested models in fashion, electronics, and food industries to help you combat high inventory levels and also to warn you so you never run out of trending products.</p>
-    <img src="/demand_forecasting.png" alt="Demand Forecasting">
+    <img src="/demand_forecasting.png" loading="lazy" alt="Demand Forecasting">
 <h2 class="text-2xl mb-6">Client Overview</h2>
 <p class="mb-6">Our client, a rapidly growing e-commerce business, was facing the age-old challenge of managing inventory levels efficiently. With a diverse range of products, from seasonal fashion items to multiple collections of shoes, the client was constantly battling overstock and stockouts, resulting in lost sales and unnecessary storage costs.</p>
 

@@ -21,6 +21,10 @@
     </div>
   </div>
   <div class="hidden lg:flex justify-center items-center px-16">
-    <img src={Math.random() > 0.5 ? "/computer_vision.svg" : "/llms.svg"} alt="Crafting GIF" >
+    {#if Math.random() > 0.5}
+      <img src="/computer_vision.svg" loading="lazy" alt="Computer Vision" >
+    {:else}
+      <img src="/llms.svg" loading="lazy" alt="LLMs" >
+    {/if}
   </div>
 </section>

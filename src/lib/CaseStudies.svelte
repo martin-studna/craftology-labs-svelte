@@ -20,7 +20,7 @@ import { goto } from '$app/navigation';
             <button class="primary-button" on:click={() => goto('/case-studies/people-counting')}>Read more</button>
         </div>
         <div>
-            <img src="/people_counting.png" alt="People counting in a store" class="rounded-lg shadow">
+            <img src="/people_counting.webp" alt="People counting in a store" loading="lazy" class="rounded-lg shadow">
         </div>
     </div>
 
@@ -37,7 +37,7 @@ import { goto } from '$app/navigation';
             <button class="primary-button" on:click={() => goto('/case-studies/demand-forecasting')}>Read more</button>
         </div>
         <div>
-            <img src="/demand_forecasting.png" alt="AI model in a warehouse" class="rounded-lg shadow">
+            <img src="/demand_forecasting.webp" alt="AI model in a warehouse" loading="lazy" class="rounded-lg shadow">
         </div>
     </div>
 
@@ -58,7 +58,7 @@ import { goto } from '$app/navigation';
             <button class="primary-button" on:click={() => goto('/case-studies/knowledge-base')}>Read more</button>
         </div>
         <div>
-            <img src="/interactive_knowledge_base.png" alt="AI model in a warehouse" class="rounded-lg shadow">
+            <img src="/interactive_knowledge_base.webp" alt="AI model in a warehouse" loading="lazy" class="rounded-lg shadow">
         </div>
     </div>
 </section>

@@ -4,7 +4,7 @@
     <p class="text-larger">We are a team of experienced engineers and researchers that deliver custom solutions that are <span class="text-[var(--accent-purple)] font-bold">optimized</span> for your use case, <span class="text-[var(--accent-purple)] font-bold">cost-efficient</span>, and meets the highest <span class="text-[var(--accent-purple)] font-bold">security standards</span>.</p>
     <div class="grid grid-cols-1 lg:grid-cols-2 gap-8 mt-48 w-full">
         <div class="flex flex-col items-center text-center">
-            <img src="/martin_photo2.jpeg" alt="Martin" class="w-48 h-48 rounded-full object-cover mb-4">
+            <img src="/martin_photo.webp" alt="Martin Studna" loading="lazy" class="w-48 h-48 rounded-full object-cover mb-4">
             <p class="text-xl font-semibold mb-2">MSc. Martin Studna, CEO</p>
             <p class="max-w-md">A software engineer with a Master's degree in Artificial Intelligence from Charles University in Prague. Specializes in machine learning, large language models, and computer vision, with experience leading technical teams and delivering complex projects.</p>
             <a href="https://www.linkedin.com/in/martin-studna/" class="mt-4" target="_blank" rel="noopener noreferrer" aria-label="martin-link">
@@ -14,7 +14,7 @@
             </a>
         </div>
         <div class="flex flex-col items-center text-center ">
-            <img src="/vaclav_photo.jpg" alt="Václav" class="w-48 h-48 rounded-full object-cover mb-4">
+            <img src="/vaclav_photo.webp" alt="Václav Radimský" loading="lazy" class="w-48 h-48 rounded-full object-cover mb-4">
             <p class="text-xl font-semibold mb-2">MEng. Václav Radimský, COO</p>
             <p class="max-w-md">Experienced operations manager specializing in logistics, process optimization, and automation for mid-sized e-commerce projects. Skilled in strategic planning, supply chain management, and implementing innovative solutions to enhance efficiency.</p>
             <a href="https://www.linkedin.com/in/radimskyvaclav/" class="mt-4" target="_blank" rel="noopener noreferrer" aria-label="vaclav-link">

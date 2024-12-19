@@ -16,7 +16,7 @@
 <header class="flex items-center p-4">
 	<div class="flex items-center justify-between space-x-4 w-full max-w-screen-xl mx-auto my-4 px-6">
 		<a href="/">
-			<img src="/logo_and_name.svg" alt="Craftology Logo" class="min-w-[180px] min-h-[32px] sm:min-w-[220px] sm:min-h-[40px]">
+			<img src="/logo_and_name.svg" alt="Craftology Logo" loading="lazy" class="min-w-[180px] min-h-[32px] sm:min-w-[220px] sm:min-h-[40px]">
 		</a>
 		<nav class="hide flex items-center space-x-8 font-semibold">
 			<a href="/#services" onclick={() => {if (window.location.pathname !== '/') {goto('/#services')}; scrollToElement('services')}} class="text-md tracking-wider">SERVICES</a>
