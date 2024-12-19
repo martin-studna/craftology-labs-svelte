@@ -11,7 +11,7 @@
     <p class="text-larger mb-6">Are you tired of monitoring your goods and inventory manually? Or do you have a problem to detect defects in your products? We can help you with that.</p>
 
     <!-- grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-5 gap-4 lg:max-w-[80%] justify-items-center -->
-  <div class="flex flex-wrap gap-4 lg:max-w-[80%] justify-center md:justify-start">
+  <div class="flex flex-wrap gap-4 lg:max-w-[80%] ">
     <div class="service-box">Quality Product Control</div>
     <div class="service-box">Smart Inventory Management</div>
     <div class="service-box">Object Tracking</div>
@@ -24,7 +24,7 @@
     <h2 class="heading-2">AI Agents</h2>
     <p class="text-larger mb-6">Would you like to do something more meaningful than just answering e-mails, generating invoices, or supporting your customers? We are here for you.</p>
 
-    <div class="flex flex-wrap gap-4 lg:max-w-[80%] justify-center md:justify-start">
+    <div class="flex flex-wrap gap-4 lg:max-w-[80%] ">
       <div class="service-box">Smart E-mail Replies</div>
       <div class="service-box">AI Invoice Generation</div>
       <div class="service-box">Intelligent Customer Support</div>
@@ -37,7 +37,7 @@
     <h2 class="heading-2">RAG Chatbots</h2>
     <p class="text-larger mb-6">Access your internal knowledge base with a chatbot that can answer questions and help you with your customers.</p>
 
-    <div class="flex flex-wrap gap-4 lg:max-w-[80%] justify-center md:justify-start">
+    <div class="flex flex-wrap gap-4 lg:max-w-[80%] ">
       <div class="service-box">Knowledge Management</div>
       <div class="service-box">Document Analysis</div>
       <div class="service-box">HR and Recruitment</div>
