@@ -1,4 +1,4 @@
-<section class="h-[100svh] flex flex-col justify-center">
+<section class="min-h-[100vh] flex flex-col justify-center mt-72">
     <h1 class="text-5xl mb-12 text-center">Why We Are The <span class="text-[var(--accent-purple)]">Right</span> Choice?</h1>
 
     <div class="grid grid-cols-1 md:grid-cols-2 gap-8 text-center auto-rows-min">
