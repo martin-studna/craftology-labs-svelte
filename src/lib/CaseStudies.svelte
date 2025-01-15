@@ -1,11 +1,13 @@
 <script>
 import { goto } from '$app/navigation';
+import Saos from "saos";
 </script>
 
 <section id="case-studies" class="flex flex-col justify-center mt-72">
-
+  <Saos animation={"from-top .7s"}>
     <h1  class="text-5xl mb-12">Projects developed. <span class="text-[var(--accent-purple)]">Delivered</span>. Used every day.</h1>
-
+  </Saos>
+  <Saos animation={"from-top .7s"}>
     <div class="grid md:grid-cols-2 gap-8 items-center bg-white p-6">
         <div>
             <h2 class="text-xl font-bold mb-4">PEOPLE COUNTING. FOR BETTER BUSINESS.</h2>
@@ -23,7 +25,8 @@ import { goto } from '$app/navigation';
             <img src="/people_counting.webp" alt="People counting in a store" loading="lazy" class="rounded-lg shadow">
         </div>
     </div>
-
+    </Saos>
+    <Saos animation={"from-top .7s"}>
     <!-- Section 2 -->
     <div class="grid md:grid-cols-2 gap-8 items-center bg-white p-6 mt-12">
         <div>
@@ -40,7 +43,8 @@ import { goto } from '$app/navigation';
             <img src="/demand_forecasting.webp" alt="AI model in a warehouse" loading="lazy" class="rounded-lg shadow">
         </div>
     </div>
-
+    </Saos>
+    <Saos animation={"from-top .7s"}>
     <div class="grid md:grid-cols-2 gap-8 items-center bg-white p-6 mt-12">
         <div>
             <h2 class="text-xl font-bold mb-4">CORPORATE APPROVED. AI FOR CUBICLE.</h2>
@@ -61,4 +65,18 @@ import { goto } from '$app/navigation';
             <img src="/interactive_knowledge_base.webp" alt="AI model in a warehouse" loading="lazy" class="rounded-lg shadow">
         </div>
     </div>
+    </Saos>
 </section>
+
+<style>
+  @keyframes -global-from-top {
+    0% {
+      transform: translateY(-30px);
+      opacity: 0;
+    }
+    100% {
+      transform: translateY(0);
+      opacity: 1;
+    }
+  }
+</style>

@@ -1,25 +1,39 @@
+<script>
+    import Saos from "saos";
+</script>
+
 <section id="services" class=" flex flex-col items-start mt-40">
+  <Saos animation={"from-top 1s"}>
   <h2 class="heading-1 mb-12">We help companies to be <span class="text-[var(--accent-purple)]">smart</span> and <span class="text-[var(--accent-purple)]">efficient</span></h2>
+  </Saos>
+  <Saos animation={"from-top 1s"}>
   <p class="text-larger mb-12">Our mission is to help companies save <span class="text-[var(--accent-purple)] font-bold">time</span> and <span class="text-[var(--accent-purple)] font-bold">resources</span>, by automating tedious, time-consuming tasks with AI.</p>
+  </Saos>
+  <Saos animation={"from-top 1s"}>
   <p class="text-larger mb-12">Whether it's <span class="text-[var(--accent-purple)] font-bold">Smart Cameras</span>, <span class="text-[var(--accent-purple)] font-bold">AI agents</span> to automate customer support, <span class="text-[var(--accent-purple)] font-bold">RAG Chatbots</span> to access your internal knowledge base, or other data sources, we have you covered.
+  </Saos>
 
 
   <div class="w-full border-b-2 border-black my-12"></div>
 
   <div class="mt-12">
+    <Saos animation={"from-top 1s"}>
     <h2 class="heading-2">Computer Vision</h2>
     <p class="text-larger mb-6">Are you tired of monitoring your goods and inventory manually? Or do you have a problem to detect defects in your products? We can help you with that.</p>
+    </Saos>
 
-    <!-- grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-5 gap-4 lg:max-w-[80%] justify-items-center -->
+  <Saos animation={"from-top 1s"}>
   <div class="flex flex-wrap gap-4 lg:max-w-[80%] ">
     <div class="service-box">Quality Product Control</div>
     <div class="service-box">Smart Inventory Management</div>
     <div class="service-box">Object Tracking</div>
     <div class="service-box">Behavior Analysis</div>
     <div class="service-box">Security Analytics</div>
-    </div>
   </div>
+  
+  </Saos>
 
+  <Saos animation={"from-top 1s"}>
   <div class="mt-12">
     <h2 class="heading-2">AI Agents</h2>
     <p class="text-larger mb-6">Would you like to do something more meaningful than just answering e-mails, generating invoices, or supporting your customers? We are here for you.</p>
@@ -32,6 +46,9 @@
       <div class="service-box">Database Queries in Natural Language</div>
     </div>
   </div>
+  </Saos>
+
+  <Saos animation={"from-top 1s"}>
 
   <div class="mt-12">
     <h2 class="heading-2">RAG Chatbots</h2>
@@ -43,4 +60,19 @@
       <div class="service-box">HR and Recruitment</div>
     </div>
   </div>
+
+  </Saos>
 </section>
+
+<style>
+  @keyframes -global-from-top {
+    0% {
+      transform: translateY(-30px);
+      opacity: 0;
+    }
+    100% {
+      transform: translateY(0);
+      opacity: 1;
+    }
+  }
+</style>
