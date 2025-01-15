@@ -1,6 +1,6 @@
 {
-  "name": "MyWebSite",
-  "short_name": "MySite",
+  "name": "Craftology",
+  "short_name": "Craftology",
   "icons": [
     {
       "src": "/web-app-manifest-192x192.png",
