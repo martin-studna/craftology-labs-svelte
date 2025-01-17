@@ -3,16 +3,16 @@
 </script>
 
 <section class="flex flex-col justify-center items-center min-h-[100vh] mt-72">
-    <Saos animation={"from-top 1s"}>
+    <Saos animation={"slide-in-top .7s cubic-bezier(0.35, 0.5, 0.65, 0.95) both"}>
 
 
     <h1 class="heading-1 mb-12">We are a Software Studio specializing in <span class="text-[var(--accent-purple)] font-bold">Generative AI</span>, <span class="text-[var(--accent-purple)] font-bold">Large Language Models (LLMs)</span>, and <span class="text-[var(--accent-purple)] font-bold">Computer Vision</span></h1>
     </Saos>
-    <Saos animation={"from-top 1s"}>
+    <Saos animation={"slide-in-top .7s cubic-bezier(0.35, 0.5, 0.65, 0.95) both"}>
     <p class="text-larger mb-12">We believe that companies that will adopt AI will stay <span class="text-[var(--accent-purple)] font-bold">competitive</span> and even <span class="text-[var(--accent-purple)] font-bold">ahead of their competitors</span>. We are not another AI company that delivers <span class="text-[var(--accent-purple)] font-bold">ChatGPT wrappers</span>. 
     <p class="text-larger">We are a team of experienced engineers and researchers that deliver custom solutions that are <span class="text-[var(--accent-purple)] font-bold">optimized</span> for your use case, <span class="text-[var(--accent-purple)] font-bold">cost-efficient</span>, and meets the highest <span class="text-[var(--accent-purple)] font-bold">security standards</span>.</p>
     </Saos>
-    <Saos animation={"from-top 1s"}>
+    <Saos animation={"slide-in-top .7s cubic-bezier(0.35, 0.5, 0.65, 0.95) both"}>
     <div class="grid grid-cols-1 lg:grid-cols-2 gap-8 mt-48 w-full">
         <div class="flex flex-col items-center text-center">
             <img src="/martin_photo.webp" alt="Martin Studna" loading="lazy" class="w-48 h-48 rounded-full object-cover mb-4">
@@ -39,14 +39,5 @@
 </section>
 
 <style>
-    @keyframes -global-from-top {
-    0% {
-      transform: translateY(-30px);
-      opacity: 0;
-    }
-    100% {
-      transform: translateY(0);
-      opacity: 1;
-    }
-  }
+
 </style>

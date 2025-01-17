@@ -4,10 +4,10 @@ import Saos from "saos";
 </script>
 
 <section id="case-studies" class="flex flex-col justify-center mt-72">
-  <Saos animation={"from-top .7s"}>
+  <Saos animation={"slide-in-top .7s cubic-bezier(0.35, 0.5, 0.65, 0.95) both"}>
     <h1  class="text-5xl mb-12">Projects developed. <span class="text-[var(--accent-purple)]">Delivered</span>. Used every day.</h1>
   </Saos>
-  <Saos animation={"from-top .7s"}>
+  <Saos animation={"slide-in-top .7s cubic-bezier(0.35, 0.5, 0.65, 0.95) both"}>
     <div class="grid md:grid-cols-2 gap-8 items-center bg-white p-6">
         <div>
             <h2 class="text-xl font-bold mb-4">PEOPLE COUNTING. FOR BETTER BUSINESS.</h2>
@@ -26,7 +26,7 @@ import Saos from "saos";
         </div>
     </div>
     </Saos>
-    <Saos animation={"from-top .7s"}>
+    <Saos animation={"slide-in-top .7s cubic-bezier(0.35, 0.5, 0.65, 0.95) both"}>
     <!-- Section 2 -->
     <div class="grid md:grid-cols-2 gap-8 items-center bg-white p-6 mt-12">
         <div>
@@ -44,7 +44,7 @@ import Saos from "saos";
         </div>
     </div>
     </Saos>
-    <Saos animation={"from-top .7s"}>
+    <Saos animation={"slide-in-top .7s cubic-bezier(0.35, 0.5, 0.65, 0.95) both"}>
     <div class="grid md:grid-cols-2 gap-8 items-center bg-white p-6 mt-12">
         <div>
             <h2 class="text-xl font-bold mb-4">CORPORATE APPROVED. AI FOR CUBICLE.</h2>
@@ -69,14 +69,5 @@ import Saos from "saos";
 </section>
 
 <style>
-  @keyframes -global-from-top {
-    0% {
-      transform: translateY(-30px);
-      opacity: 0;
-    }
-    100% {
-      transform: translateY(0);
-      opacity: 1;
-    }
-  }
+
 </style>

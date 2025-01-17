@@ -3,7 +3,7 @@
 </script>
 
 <section class="min-h-[100vh] flex flex-col justify-center mt-72">
-    <Saos animation={"from-top 1s"}>
+    <Saos animation={"slide-in-top .7s cubic-bezier(0.35, 0.5, 0.65, 0.95) both"}>
     <h1 class="text-5xl mb-12 text-center">Why We Are The <span class="text-[var(--accent-purple)]">Right</span> Choice?</h1>
 
     <div class="grid grid-cols-1 md:grid-cols-2 gap-8 text-center auto-rows-min">
@@ -23,15 +23,4 @@
     </Saos>
 </section>
 
-<style>
-  @keyframes -global-from-top {
-    0% {
-      transform: translateY(-30px);
-      opacity: 0;
-    }
-    100% {
-      transform: translateY(0);
-      opacity: 1;
-    }
-  }
-</style>
+<style></style>

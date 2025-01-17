@@ -13,7 +13,7 @@
 
 <section class="h-[calc(100svh-136px)] grid grid-cols-1 lg:grid-cols-2 gap-4">
   <div class="flex flex-col justify-center items-start ">
-    <Saos animation={"from-top 1s"}>
+    <Saos animation={"slide-in-top .7s cubic-bezier(0.35, 0.5, 0.65, 0.95) both"}>
     
       
 
@@ -29,7 +29,7 @@
   </div>
 
   <div class="hidden lg:flex justify-center items-center px-16">
-    <Saos animation={"from-top 1s"}>
+    <Saos animation={"slide-in-top .7s cubic-bezier(0.35, 0.5, 0.65, 0.95) both"}>
     {#if Math.random() > 0.5}
       <img src="/computer_vision.svg"  alt="Computer Vision" >
     {:else}
@@ -42,14 +42,5 @@
 </section>
 
 <style>
-  @keyframes -global-from-top {
-    0% {
-      transform: translateY(-30px);
-      opacity: 0;
-    }
-    100% {
-      transform: translateY(0);
-      opacity: 1;
-    }
-  }
+
 </style>
