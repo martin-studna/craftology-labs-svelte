@@ -1,7 +1,9 @@
 <script>
     import Form from '../../lib/Form.svelte';
+    import Saos from "saos";
 </script>
 
+<Saos animation={"slide-in-top .7s cubic-bezier(0.35, 0.5, 0.65, 0.95) both"}>
 <section class="flex flex-col justify-center items-center">
     <h1 class="heading-1 text-center" style="letter-spacing: 0.05em; ">Get In Touch</h1>
     
@@ -20,3 +22,4 @@
         <p class="text-xl">CZ21518025</p>
     </div>
 </section>
+</Saos>

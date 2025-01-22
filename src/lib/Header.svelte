@@ -1,6 +1,7 @@
 <script>
 	import { goto } from '$app/navigation';
 	import Hamburger from './Hamburger.svelte';
+	import Saos from "saos";
     function scrollToElement(address) {
       event.preventDefault(); // Prevent default anchor behavior
 
@@ -27,6 +28,7 @@
 		<Hamburger bind:open />
 		 <div class="{ open ? 'header-menu' : 'hide2' }">
 			 <div class="flex flex-col items-center justify-center h-full">
+				<Saos animation={"slide-in-left .7s cubic-bezier(0.35, 0.5, 0.65, 0.95) both"}>
 				<button
 				  onclick={() => {
 					open = false;
@@ -43,6 +45,8 @@
 				  data-aos-delay="400">
 				  SERVICES
 				</button>
+				</Saos>
+				<Saos animation={"slide-in-left .7s cubic-bezier(0.35, 0.5, 0.65, 0.95) both"}>
 				<button
 		
 				   onclick={() => {
@@ -60,6 +64,8 @@
 				  data-aos-delay="450">
 				  CASE STUDIES
 				</button>
+				</Saos>
+				<Saos animation={"slide-in-left .7s cubic-bezier(0.35, 0.5, 0.65, 0.95) both"}>
 				<button
 				  onclick={() => {
 					open = false;
@@ -72,6 +78,7 @@
 				  data-aos-delay="550">
 				  LET'S TALK
 				</button>
+				</Saos>
 		 </div>
 	</div>
 </header>

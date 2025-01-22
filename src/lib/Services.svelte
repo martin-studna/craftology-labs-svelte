@@ -13,8 +13,9 @@
   <p class="text-larger mb-12">Whether it's <span class="text-[var(--accent-purple)] font-bold">Smart Cameras</span>, <span class="text-[var(--accent-purple)] font-bold">AI agents</span> to automate customer support, <span class="text-[var(--accent-purple)] font-bold">RAG Chatbots</span> to access your internal knowledge base, or other data sources, we have you covered.
   </Saos>
 
-
+  <!-- <Saos  animation={"slide-in-top .7s cubic-bezier(0.35, 0.5, 0.65, 0.95) both"}>
   <div class="w-full border-b-2 border-black my-12"></div>
+  </Saos> -->
 
   <div class="mt-12">
     <Saos animation={"slide-in-top .7s cubic-bezier(0.35, 0.5, 0.65, 0.95) both"}>
