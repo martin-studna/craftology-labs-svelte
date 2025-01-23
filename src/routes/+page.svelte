@@ -14,7 +14,7 @@
 <style>
 	@keyframes -global-slide-in-top {
     0% {
-      transform: translateY(-50px);
+      transform: translateY(50px);
       opacity: 0;
     }
     100% {
