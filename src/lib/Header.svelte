@@ -1,7 +1,6 @@
 <script>
 	import { goto } from '$app/navigation';
 	import Hamburger from './Hamburger.svelte';
-	import Saos from "saos";
     function scrollToElement(address) {
       event.preventDefault(); // Prevent default anchor behavior
 
@@ -12,7 +11,7 @@
     }
 
 	let open = $state(false);
-  </script>
+</script>
 
 <header class="flex items-center p-4">
 	<div class="flex items-center justify-between space-x-4 w-full max-w-screen-xl mx-auto my-4 px-6">
@@ -26,68 +25,52 @@
 		</nav>
 		<!-- <div class="sm:hidden  lg:block">fwpeokwfpo</div> -->
 		<Hamburger bind:open />
-		 <div class="{ open ? 'header-menu' : 'hide2' }">
-			 <div class="flex flex-col items-center justify-center h-full">
-				<Saos animation={"slide-in-left .7s cubic-bezier(0.35, 0.5, 0.65, 0.95) both"}>
+		<div class="{ open ? 'header-menu' : 'hide2' }">
+			<div class="flex flex-col items-center justify-center h-full">
 				<button
-				  onclick={() => {
-					open = false;
-					document.body.style.overflow = 'auto';
+					onclick={() => {
+						open = false;
+						document.body.style.overflow = 'auto';
 
-					if (window.location.pathname !== '/') {
-						goto('/#services');
-					}
-					scrollToElement('services');
-				  }}
-		
-				  class="{ open ? 'link text-4xl mb-12 font-semibold' : 'hidden' }"
-				  data-aos="fade-right"
-				  data-aos-delay="400">
-				  SERVICES
+						if (window.location.pathname !== '/') {
+							goto('/#services');
+						}
+						scrollToElement('services');
+					}}
+					class="{ open ? 'link text-4xl mb-12 font-semibold' : 'hidden' }"
+					>
+					SERVICES
 				</button>
-				</Saos>
-				<Saos animation={"slide-in-left .7s cubic-bezier(0.35, 0.5, 0.65, 0.95) both"}>
 				<button
-		
-				   onclick={() => {
-					open = false;
-					document.body.style.overflow = 'auto';
-					if (window.location.pathname !== '/') {
-						goto('/#case-studies');
-					}
-					
-					scrollToElement('case-studies');
-				  }}
-		
-				  class="{ open ? 'link text-4xl mb-12 font-semibold' : 'hidden' }"
-				  data-aos="fade-right"
-				  data-aos-delay="450">
-				  CASE STUDIES
+					onclick={() => {
+						open = false;
+						document.body.style.overflow = 'auto';
+						if (window.location.pathname !== '/') {
+							goto('/#case-studies');
+						}
+						scrollToElement('case-studies');
+					}}
+					class="{ open ? 'link text-4xl mb-12 font-semibold' : 'hidden' }"
+					>
+					CASE STUDIES
 				</button>
-				</Saos>
-				<Saos animation={"slide-in-left .7s cubic-bezier(0.35, 0.5, 0.65, 0.95) both"}>
 				<button
-				  onclick={() => {
-					open = false;
-					document.body.style.overflow = 'auto';
-					goto('/contact');
-				  }}
-		
-				  class="{ open ? 'link text-4xl mb-12 font-semibold' : 'hidden' }"
-				  data-aos="fade-right"
-				  data-aos-delay="550">
-				  LET'S TALK
+					onclick={() => {
+						open = false;
+						document.body.style.overflow = 'auto';
+						goto('/contact');
+					}}
+					class="{ open ? 'link text-4xl mb-12 font-semibold' : 'hidden' }"
+					>
+					LET'S TALK
 				</button>
-				</Saos>
-		 </div>
+			</div>
+		</div>
 	</div>
 </header>
 
 <style>
-
-
 	.header-menu {
-		
 		position: absolute;
 		top: 0;
 		right: 0;
@@ -97,7 +80,6 @@
 		opacity: 0.9;
 		overflow: hidden;
 		z-index: 10;
-
 	}
 	.hide2 {
 		display: none;
@@ -107,7 +89,5 @@
 		.hide {
 			display: none;
 		}
-
-
 	}
 </style>

@@ -1,10 +1,9 @@
 <script>
     import Form from '../../lib/Form.svelte';
-    import Saos from "saos";
+
 </script>
 
-<Saos animation={"slide-in-top .7s cubic-bezier(0.35, 0.5, 0.65, 0.95) both"}>
-<section class="flex flex-col justify-center items-center">
+<section class="flex flex-col justify-center items-center" data-aos="fade-up">
     <h1 class="heading-1 text-center" style="letter-spacing: 0.05em; ">Get In Touch</h1>
     
     <a class="primary-button" target="_blank" rel="noopener noreferrer" href="https://calendar.app.google/KEfV6ckjCn2ig6Kr6">Book a Free Discovery Call</a>
@@ -22,4 +21,3 @@
         <p class="text-xl">CZ21518025</p>
     </div>
 </section>
-</Saos>
