@@ -3,7 +3,7 @@
 
 </script>
 
-<section class="flex flex-col justify-center items-center" data-aos="fade-up">
+<section class="flex flex-col justify-center items-center mt-20" data-aos="fade-up">
     <h1 class="heading-1 text-center" style="letter-spacing: 0.05em; ">Get In Touch</h1>
     
     <a class="primary-button" target="_blank" rel="noopener noreferrer" href="https://calendar.app.google/KEfV6ckjCn2ig6Kr6">Book a Free Discovery Call</a>

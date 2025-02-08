@@ -4,8 +4,8 @@
 
 
 <Landing />
-<Services />
 <About />
+<Services />
 <Experience />
 <CaseStudies />
 <Contacts />

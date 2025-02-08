@@ -1,13 +1,13 @@
 <script>
 </script>
 
-<section class="flex flex-col justify-center items-center min-h-[100vh] mt-72">
+<section id="about" class="flex flex-col justify-center items-center min-h-[100vh] mt-72">
     <div data-aos="fade-up">
-        <h1 class="heading-1 mb-12">We are a Software Studio specializing in <span class="text-[var(--accent-purple)] font-bold">Generative AI</span>, <span class="text-[var(--accent-purple)] font-bold">Large Language Models (LLMs)</span>, and <span class="text-[var(--accent-purple)] font-bold">Computer Vision</span></h1>
+        <h1 class="heading-1 mb-12"><span class="text-[var(--accent-purple)] font-semibold">Craftology</span> is a software studio specializing in <span class="text-[var(--accent-purple)] font-semibold">Generative AI</span>, <span class="text-[var(--accent-purple)] font-semibold">Large Language Models (LLMs)</span>, and <span class="text-[var(--accent-purple)] font-semibold">Computer Vision</span></h1>
     </div>
     <div data-aos="fade-up">
-        <p class="text-larger mb-12">We believe that companies that will adopt AI will stay <span class="text-[var(--accent-purple)] font-bold">competitive</span> and even <span class="text-[var(--accent-purple)] font-bold">ahead of their competitors</span>. We are not another AI company that delivers <span class="text-[var(--accent-purple)] font-bold">ChatGPT wrappers</span>. 
-        <p class="text-larger">We are a team of experienced engineers and researchers that deliver custom solutions that are <span class="text-[var(--accent-purple)] font-bold">optimized</span> for your use case, <span class="text-[var(--accent-purple)] font-bold">cost-efficient</span>, and meets the highest <span class="text-[var(--accent-purple)] font-bold">security standards</span>.</p>
+        <p class="text-larger mb-12">We believe that companies that will adopt AI will stay <span class="text-[var(--accent-purple)] font-semibold">competitive</span> and even <span class="text-[var(--accent-purple)] font-semibold">ahead of their competitors</span>. We are not another AI company that delivers <span class="text-[var(--accent-purple)] font-semibold">ChatGPT wrappers</span>. 
+        <p class="text-larger">We are a team of experienced engineers and researchers that deliver custom solutions that are <span class="text-[var(--accent-purple)] font-semibold">optimized</span> for your use case, <span class="text-[var(--accent-purple)] font-semibold">cost-efficient</span>, and meets the highest <span class="text-[var(--accent-purple)] font-semibold">security standards</span>.</p>
     </div>
     <div data-aos="fade-up">
         <div class="grid grid-cols-1 lg:grid-cols-2 gap-8 mt-48 w-full">

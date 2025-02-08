@@ -18,7 +18,7 @@
     <h2 class="heading-3">Software studio with expertise in genAI, LLMs, and Computer Vision.</h2>
     <p class="mb-6">Process transformation is not easy. In Craftology, we help you identify your exact needs.</p>
     <div class="flex space-x-4">
-      <button class="secondary-button" onclick={() => scrollToElement('services')}>Learn More</button>
+      <button class="secondary-button" onclick={() => scrollToElement('about')}>Learn More</button>
       <button class="primary-button" onclick={() => goto('/contact')}>Let's Talk</button>
     </div>
   </div>
