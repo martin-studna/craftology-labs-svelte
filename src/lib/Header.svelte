@@ -6,7 +6,9 @@
 
       const targetElement = document.getElementById(address);
       if (targetElement) {
-        targetElement.scrollIntoView({ behavior: 'smooth' });
+        const yOffset = -100; // Offset in pixels
+        const y = targetElement.getBoundingClientRect().top + window.pageYOffset + yOffset;
+        window.scrollTo({top: y, behavior: 'smooth'});
       }
     }
 

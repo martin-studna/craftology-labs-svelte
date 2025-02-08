@@ -1,13 +1,15 @@
 <script>
   import { goto } from '$app/navigation';
   function scrollToElement(address) {
-      event.preventDefault(); // Prevent default anchor behavior
+    event.preventDefault(); // Prevent default anchor behavior
 
-      const targetElement = document.getElementById(address);
-      if (targetElement) {
-        targetElement.scrollIntoView({ behavior: 'smooth' });
-      }
+    const targetElement = document.getElementById(address);
+    if (targetElement) {
+      const yOffset = 0; // Offset in pixels
+      const y = targetElement.getBoundingClientRect().top + window.pageYOffset + yOffset;
+      window.scrollTo({top: y, behavior: 'smooth'});
     }
+  }
 </script>
 
 <section class="h-[calc(100svh-136px)] grid grid-cols-1 lg:grid-cols-2 gap-4">
