@@ -17,8 +17,8 @@
     <h1 class="heading-landing"><span class="text-[var(--accent-purple)]">Simplifying</span> the Way You Work</h1>
     <div class="text-xl md:text-2xl">Custom AI solutions for your business</div>
     <div class="flex justify-center items-center mt-10">
-      <button class="secondary-button mr-5" style="width: 150px; height: 50px; font-size: 1.2rem;" onclick={() => scrollToElement('about')}>Learn More</button>
-      <button class="primary-button" style="width: 150px; height: 50px; font-size: 1.2rem;" onclick={() => goto('/contact')}>Let's Talk</button>
+      <button class="secondary-button landing-button mr-5"  onclick={() => scrollToElement('about')}>Learn More</button>
+      <button class="primary-button landing-button" onclick={() => goto('/contact')}>Let's Talk</button>
     </div>
   </div>
 </section>
