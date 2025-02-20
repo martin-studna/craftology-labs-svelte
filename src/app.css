@@ -62,7 +62,7 @@ label {
 }
 
 .heading-landing {
-    @apply text-7xl md:text-[7rem] mb-6 mt-40;
+    @apply text-7xl md:text-[7rem] mb-6 mt-20 md:mt-40;
     
 
     line-height: normal;
