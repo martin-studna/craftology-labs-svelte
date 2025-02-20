@@ -12,23 +12,14 @@
   }
 </script>
 
-<section class="h-[calc(100svh-136px)] grid grid-cols-1 lg:grid-cols-2 gap-4">
-  <div class="flex flex-col justify-center items-start" data-aos="fade-up">
-    <h1 class="heading-1"><span class="text-[var(--accent-purple)]">Simplifying</span> the Way You Work</h1>
-    <h2 class="heading-3">Software studio with expertise in genAI, LLMs, and Computer Vision.</h2>
-    <p class="mb-6">Process transformation is not easy. In Craftology, we help you identify your exact needs.</p>
-    <div class="flex space-x-4">
-      <button class="secondary-button" onclick={() => scrollToElement('about')}>Learn More</button>
-      <button class="primary-button" onclick={() => goto('/contact')}>Let's Talk</button>
+<section class="h-[calc(100vh-136px)] flex flex-col items-center">
+  <div class="flex flex-col justify-center text-center" data-aos="fade-up">
+    <h1 class="heading-landing"><span class="text-[var(--accent-purple)]">Simplifying</span> the Way You Work</h1>
+    <div class="text-xl md:text-2xl">Custom AI solutions for your business</div>
+    <div class="flex justify-center items-center mt-10">
+      <button class="secondary-button mr-5" style="width: 150px; height: 50px; font-size: 1.2rem;" onclick={() => scrollToElement('about')}>Learn More</button>
+      <button class="primary-button" style="width: 150px; height: 50px; font-size: 1.2rem;" onclick={() => goto('/contact')}>Let's Talk</button>
     </div>
-  </div>
-
-  <div class="hidden lg:flex justify-center items-center px-16" data-aos="fade-up">
-    {#if Math.random() > 0.5}
-      <img src="/computer_vision.svg"  alt="Computer Vision" >
-    {:else}
-      <img src="/llms.svg"  alt="LLMs" >
-    {/if}
   </div>
 </section>
 

@@ -34,10 +34,22 @@ label {
 
 .primary-button {
     @apply bg-[var(--accent-purple)] text-white py-2 px-5 rounded-lg font-semibold;
+    transition: background-color 0.2s ease-in-out;
+}
+
+.primary-button:hover {
+    background-color: white;
+    color: var(--accent-purple);
+    @apply outline outline-[var(--accent-purple)];
 }
 
 .secondary-button {
-    @apply bg-[var(--grey-100)] text-[var(--accent-purple)] py-2 px-5 rounded-lg font-semibold border border-[var(--accent-purple)];
+    @apply bg-[var(--grey-100)] text-[var(--accent-purple)] py-2 px-5 rounded-lg font-semibold outline outline-[var(--accent-purple)];
+    transition: background-color 0.2s ease-in-out;
+}
+
+.secondary-button:hover {
+    @apply bg-[var(--accent-purple)] text-white;
 }
 
 .service-box {
@@ -46,6 +58,13 @@ label {
 
 .heading-1 {
     @apply text-5xl md:text-7xl mb-6;
+    line-height: normal;
+}
+
+.heading-landing {
+    @apply text-7xl md:text-[7rem] mb-6 mt-40;
+    
+
     line-height: normal;
 }
 
@@ -60,3 +79,35 @@ label {
 .text-larger {
     @apply text-xl md:text-2xl;
 }
+
+.card {
+    
+    border-radius: 30px;
+    max-width:90%;
+    max-height:90%;
+    position:relative;
+    box-shadow: 0px 0px 10px ;
+    width:500px;
+    height:400px; 
+    align-self: center; 
+    justify-self: center;
+    
+    
+  }
+
+
+  .card-image {
+    background-size: cover !important;
+    background-position: center !important;
+    background-repeat: no-repeat !important;
+  }
+
+
+  @media (max-width: 700px) {
+    .card {
+        max-width: 100%;
+        max-height: 100%;
+        width: 100%;
+        
+    }
+  }
