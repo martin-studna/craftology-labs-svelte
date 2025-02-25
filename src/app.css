@@ -95,7 +95,7 @@ label {
     max-height:90%;
     position:relative;
     box-shadow: 0px 0px 10px ;
-    width:500px;
+    width:600px;
     height:400px; 
     align-self: center; 
     justify-self: center;
@@ -105,9 +105,10 @@ label {
 
 
   .card-image {
-    background-size: cover !important;
+    background-size: contain !important;
     background-position: center !important;
     background-repeat: no-repeat !important;
+    
   }
 
 

@@ -5,7 +5,9 @@
     </h1>
     <h2 class="text-4xl mb-6">Use our software to get valuable insights into behavior of your customers. Analysis is realtime and runs on your premises.</h2>
     <p class="mb-6">In this fashion retailer store demo, you'll observe that only the people are selected, while the mannequins remain unselected. This distinction demonstrates the system's ability to accurately differentiate between real individuals and static objects within the store environment.</p>
-    <img src="/people_counting.png" loading="lazy" alt="People Counting">
+    <div class="card">
+        <video src="/camera_video.mp4" autoplay muted loop playsinline class="w-full h-full object-cover" style="border-radius: 30px;"></video>
+    </div>
     <h2 class="text-2xl mb-6">Client Overview</h2>
     <p class="mb-6">A growing retail chain approached us with a key challenge: optimizing store operations, enhancing customer experience, and boosting sales by leveraging data insights. With our expertise in logistics, our team was eager to develop a robust solution tailored to their needs.</p>
     <h2 class="text-2xl mb-6">The Challenge</h2>
